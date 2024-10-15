@@ -12,7 +12,7 @@ const database = new Databases(client);
 
 // Twilio Account Info
 const accountSid = 'ACb51e78550b15b6ae2daefeef8d16f29e';       // Twilio Account SID
-const authToken = process.env.AUTH_TOKEN;         // Twilio Auth Token
+const authToken = '582fc860a51f21b23294677a5deb14ee';         // Twilio Auth Token
 const twilioClient = twilio(accountSid, authToken);
 const twilioWhatsAppNumber = 'whatsapp:+14155238886';  // Twilio WhatsApp-enabled number
 
