@@ -6,7 +6,7 @@ require('dotenv').config()
 
 const client = new Client()
     .setEndpoint('https://cloud.appwrite.io/v1')  // Your Appwrite Endpoint
-    .setProject(process.env.PROJECT_ID);          // Your project ID
+    .setProject('670e2c19003b113af50a');          // Your project ID
 
 const database = new Databases(client);
 
